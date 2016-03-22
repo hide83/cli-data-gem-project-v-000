@@ -1,0 +1,6 @@
+#!/usr/bin/env ruby
+
+require './lib/healthy_recipes'
+
+
+HealthyRecipe::CLI.new.call
