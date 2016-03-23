@@ -1,6 +1,9 @@
 #!/usr/bin/env ruby
 
-require './lib/healthy_recipes'
+require_relative '../lib/healthy_recipes'
 
 
-HealthyRecipe::CLI.new.call
+
+
+
+HealthyRecipes::CLI.new.call
